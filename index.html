@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="global">
+        <div class="create_company">
+            <h1>Create Company</h1>
+            <label for="cn">Company Name</label>
+            <input required type="text" name="cn" id="cn">
+            <button id="cc" class="cc">Create company</button>
+        </div>
+        <div class="create_emplotee">
+            <h1>Create Employee</h1>
+            <div class="dropdown">
+                <div class="select">
+                    <span class="selected">Chose Company</span>
+                    <div class="caret"></div>
+                </div>
+                <ul class="menu" id="menu">
+                </ul>
+            </div>
+            <div class="employee_cat">
+                <label for="eid">Employee ID</label>
+                <input required type="text" name="eid" id="eid">
+                <label for="cfn">Employee FirstName</label>
+                <input required type="text" name="efn" id="efn">
+                <label for="csn">Employee LastName</label>
+                <input required type="text" name="esn" id="esn">
+                <label for="ea">Employee Age</label>
+                <input required type="text" name="ea" id="ea">
+                <label for="es">Employee Salary</label>
+                <input required type="text" name="es" id="es">
+                <button id="ce" class="ce">Create employee</button>
+            </div>
+    </div>
+</body>
+<script src="./app.js"></script>
+</html>
